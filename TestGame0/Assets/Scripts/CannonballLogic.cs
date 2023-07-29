@@ -16,6 +16,7 @@ public class CannonballLogic : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Player");
+        Debug.Log("");
     }
 
     void Update()
