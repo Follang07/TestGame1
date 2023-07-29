@@ -12,6 +12,7 @@ public class ArrowDamageLogic : MonoBehaviour
     {
         Debug.Log("TESTETST");
         Debug.Log("test2");
+        
         _enemyLife = collision.GetComponent<EnemyLife>();
         if (collision.gameObject.CompareTag("Enemy"))
         {
