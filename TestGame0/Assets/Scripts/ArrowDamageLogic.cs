@@ -10,9 +10,8 @@ public class ArrowDamageLogic : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("TESTETST");
-        Debug.Log("test2");
-        
+        Debug.Log("test");
+
         _enemyLife = collision.GetComponent<EnemyLife>();
         if (collision.gameObject.CompareTag("Enemy"))
         {
