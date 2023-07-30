@@ -10,7 +10,8 @@ public class SceneSwitcher : MonoBehaviour
     private GameObject[] enemies;
 
     private string[] nextscene = { "MAIN SAVE 1", "MAIN SAVE 2", "MAIN SAVE 3", "MAIN SAVE 4", "MAIN SAVE 5"
-                                                                , "MAIN SAVE 6", "MAIN SAVE 7", "MAIN SAVE 8", "MAIN SAVE 9" };
+                                                                , "MAIN SAVE 6", "MAIN SAVE 7", "MAIN SAVE 8", "MAIN SAVE 9", "MAIN SAVE 10"
+                                                                 , "MAIN SAVE 11", "MAIN SAVE 12", "MAIN SAVE 13"};
     public GameObject player;
     private UnityEngine.SceneManagement.Scene currentScene;
 
