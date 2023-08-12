@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7918545472755219114}
   - component: {fileID: 7918545472755219115}
   - component: {fileID: 7918545472755219116}
-  - component: {fileID: 7918545472755219112}
   m_Layer: 0
   m_Name: Exit 1
   m_TagString: Exit
@@ -127,21 +126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rand: 0
-  oldRand: 0
   awardText: {fileID: 7918545473289382349}
   isCollided: 0
---- !u!114 &7918545472755219112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7918545472755219117}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c904ba738328f0b428d5c342c47bb607, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7918545473289382350
 GameObject:
   m_ObjectHideFlags: 0

@@ -71,6 +71,19 @@ public class PlayerLife : MonoBehaviour
         Weapon.isWizardBookEquipped = false;
         PlayerStats.vigor = _playerStats.oldVigor;
         health = oldHealth;
+        ResetValues();
         SceneManager.LoadScene(0);
     }
+
+    private void ResetValues()
+    {
+        SceneSwitcher.sceneCounter = 0;
+
+        FinishAwardLogic.oldRand = 0;
+
+        Weapon.isWizardBookEquipped = false;
+        Weapon.isRotatingSawEquipped = false;
+        Weapon.isLongBowEquipped = false;
+        Weapon.isSharpySpikesEquipped = false;
+}
 }

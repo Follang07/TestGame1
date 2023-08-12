@@ -15,6 +15,8 @@ public class FinishAwardLogic : MonoBehaviour
 
     public static int oldRand = 0;
 
+    public GameObject prefab;
+
 
     void Start()
     {
@@ -61,10 +63,14 @@ public class FinishAwardLogic : MonoBehaviour
         }
         if( award != null )
         {
-            //Debug.Log("Spawned");
-            GameObject prefab = Instantiate(award, new Vector3(transform.position.x, transform.position.y, 
-                                                                               transform.position.z), transform.rotation);
-            prefab.name = award.name;
+            if(SceneSwitcher.sceneCounter == 0 || SceneSwitcher.sceneCounter % 3 == 0)
+            {
+                //Debug.Log("Spawned");
+                prefab = Instantiate(award, new Vector3(transform.position.x, transform.position.y,
+                                                                                   transform.position.z), transform.rotation);
+                prefab.name = award.name;
+            }
+            
             IsAwardSpawned = !(IsAwardSpawned);
         }
     }

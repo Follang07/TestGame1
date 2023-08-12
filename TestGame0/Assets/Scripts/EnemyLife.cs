@@ -9,7 +9,6 @@ public class EnemyLife : MonoBehaviour
 
     void Start()
     {
-        Debug.Log(gameObject.name);
         switch (gameObject.name)
         {
             case "Ghoul":
