@@ -63,7 +63,7 @@ public class FinishAwardLogic : MonoBehaviour
         }
         if( award != null )
         {
-            if(SceneSwitcher.sceneCounter == 0 || SceneSwitcher.sceneCounter % 3 == 0)
+            if(SceneSwitcher.sceneCounter != 0 || SceneSwitcher.sceneCounter % 3 != 0)
             {
                 //Debug.Log("Spawned");
                 prefab = Instantiate(award, new Vector3(transform.position.x, transform.position.y,

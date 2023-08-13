@@ -100,6 +100,7 @@ public class PlayerStats : MonoBehaviour
                     {
                         RotatingSawLogic.damage_RotatingSaw = RotatingSawLogic.damage_RotatingSaw * 11 / 10;
                         ArrowDamageLogic.damage_Arrow = ArrowDamageLogic.damage_Arrow * 11 / 10;
+                        SharpySpikesLogic.damage_SharpySpikes = SharpySpikesLogic.damage_SharpySpikes * 11 / 10;
                         strengthTemp = 0;
                     }
                     collision.gameObject.GetComponent<StatsAnimation>().AnimationState(collision);
@@ -120,6 +121,9 @@ public class PlayerStats : MonoBehaviour
                 }
             }
         }
+        Debug.Log("Vigor" + vigor);
+        Debug.Log("Strength" + strength);
+        Debug.Log("Ýntelligence" + intelligence);
     }
 
     private void OnTriggerExit2D(Collider2D collision)

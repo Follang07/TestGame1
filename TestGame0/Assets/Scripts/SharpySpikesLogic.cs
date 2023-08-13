@@ -8,7 +8,7 @@ public class SharpySpikesLogic : MonoBehaviour
     private GameObject[] enemies;
     private EnemyLife _enemyLife;
 
-    private int damage_SharpySpikes = 10;
+    public static int damage_SharpySpikes = 10;
     void Start()
     {
         anim = GetComponent<Animator>();

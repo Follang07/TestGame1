@@ -10424,7 +10424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7562796526264036262, guid: ab4deaea7d5c4494b9d4d19b29fa4327, type: 3}
       propertyPath: m_Name
-      value: Wizard (2)
+      value: Wizard
       objectReference: {fileID: 0}
     - target: {fileID: 7562796526264036262, guid: ab4deaea7d5c4494b9d4d19b29fa4327, type: 3}
       propertyPath: m_TagString
@@ -10541,7 +10541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7810497239267655009, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
       propertyPath: m_Name
-      value: Ghoul (1)
+      value: Ghoul
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
@@ -10921,7 +10921,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724426100
 GameObject:
@@ -11314,7 +11314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7810497239267655009, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
       propertyPath: m_Name
-      value: Ghoul (3)
+      value: Ghoul
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
@@ -84103,7 +84103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7810497239267655009, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
       propertyPath: m_Name
-      value: Ghoul (2)
+      value: Ghoul
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
@@ -84250,7 +84250,7 @@ Transform:
   - {fileID: 521141019}
   - {fileID: 1041050942}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1444251491
 GameObject:
@@ -84452,7 +84452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7562796526264036262, guid: ab4deaea7d5c4494b9d4d19b29fa4327, type: 3}
       propertyPath: m_Name
-      value: Wizard (1)
+      value: Wizard
       objectReference: {fileID: 0}
     - target: {fileID: 7562796526264036262, guid: ab4deaea7d5c4494b9d4d19b29fa4327, type: 3}
       propertyPath: m_TagString
@@ -84554,7 +84554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7810497239267655009, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
       propertyPath: m_Name
-      value: Ghoul (4)
+      value: Ghoul
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b5234718d2ecc409c5ecb11826a3fd, type: 3}
@@ -84611,7 +84611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3141473424530727205, guid: 5b392f3a22d08fc4a8d73c4f07a578d9, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3141473424530727205, guid: 5b392f3a22d08fc4a8d73c4f07a578d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -84810,7 +84810,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7918545472755219113, guid: 5d0bda67be7130347a741d9a3d789ef0, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7918545472755219113, guid: 5d0bda67be7130347a741d9a3d789ef0, type: 3}
       propertyPath: m_LocalPosition.x
